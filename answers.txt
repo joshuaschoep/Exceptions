@@ -1,0 +1,16 @@
+Answers to the questions on assignment page.
+Author: Josh Schoep
+
+1. BigDecimal provides more precision for numbers with a specific decimal accuracy, such as
+dollars and cents which always is a 2 decimal number. Double has to provide space within the
+memory of the number for exponents etc, while BigDecimal can give 32 bits to an integer always
+having 2 decimal points.
+
+2. Throw early, catch late: throw exceptions as soon as the issue is found, catch them only
+when they can be handled effectively.
+
+Use exceptions only when normal processing won't work; i.e. only throw exceptions down the stack,
+not in the same function.
+
+Use descriptive custom exceptions or messages, and catch them effectively without simply ignoring
+or snuffing the exception.
